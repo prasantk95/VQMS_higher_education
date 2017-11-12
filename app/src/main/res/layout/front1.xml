@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/front1"
+
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:src="@drawable/im"
+        android:layout_marginTop="15dp"
+        android:id="@+id/vqms_site"
+        />
+
+
+    <Button
+        android:layout_width="286dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="MASTER DEGREE PROGRAM "
+
+        android:id="@+id/button1"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:layout_width="289dp"
+
+        android:layout_height="wrap_content"
+        android:text="GRADUATION DEGREE PROGRAM"
+        android:id="@+id/button2"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:layout_width="289dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="POLYTECHNIC / ITI "
+        android:id="@+id/button3"
+        android:layout_weight="0.14" />
+    <Button
+        android:layout_width="289dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="M.PHIL/ PHD  DEGREE PROGRAM"
+        android:id="@+id/button4"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="289dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="12TH / 10TH STANDARD PROGRAM"
+        android:id="@+id/button5"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="289dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="INDUSTRIAL CERTIFICATION"
+        android:id="@+id/button6"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="NOTE:"
+        android:id="@+id/note"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="VQMS is a platform for freshers towards professional carrier building."
+        android:id="@+id/notesub"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:text="Contact us :"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Email: INFO@VQMS.co.in \t\t Phone: 8010901504"
+        android:id="@+id/textView"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/send"
+            android:src="@drawable/go"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="www.vqms.co.in"
+            android:id="@+id/webadd"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#008bca"
+            />
+    </RelativeLayout>
+</LinearLayout>
